@@ -7,6 +7,8 @@ def selectionSort(lst):
     for i in range(0, len(lst)-1):
         min = i
         for j in range(i+1, len(lst)):
+            # Changing this to <= will still work 
+            # but it will be unstable sort
             if lst[j]<lst[min]:
                 min = j;
         swap(lst, i, min) 
