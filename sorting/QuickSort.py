@@ -48,5 +48,5 @@ quickSortLomuto(testL, 0, len(testL)-1)
 print(testL)
 
 testH = [100,1,3,5,7,9,2,4,6,8,10,0,12,111,125,333,44,8]
-quickSortLomuto(testH, 0, len(testH)-1)
+quickSortHoares(testH, 0, len(testH)-1)
 print(testH)
